@@ -1,0 +1,70 @@
+body{
+    padding: 4rem;
+    background-image: url(https://i1.wp.com/herramientasgratis.com/wp-content/uploads/2020/01/cumulus_tipos-de-nubes-1024x683-1.jpg?resize=1024%2C642);
+    background-attachment: fixed;
+    background-size: contain;
+    background-position:center;
+    background-repeat: repeat-y;
+    
+}
+
+
+
+
+
+
+
+.query{
+    border: 2px solid green;
+    padding: 2rem;
+    background: white;
+   }
+
+.res{
+padding: 3rem;
+min-width: 25vw;
+min-height: 25vh;
+height: auto;
+width: auto;
+border: 1px solid blue;
+background: white;
+
+}
+
+
+img{
+    border-radius: 50%;
+    float: right;
+    width: 8rem;
+   height: 8rem;
+}
+
+.mainTitle{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: rgba(173, 216, 230, 0.286);
+}
+
+#outputContenedor{
+display: flex;
+}
+
+
+#output1,#output2,#output3,#output4,#output5{
+    border: 1px solid red;
+    margin: 1rem;
+    padding: 2.2rem;
+    border-radius: 2%;
+
+}
+
+#output1{
+    padding: 1.5rem;
+
+}
+.mainInformation{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}

@@ -1,0 +1,37 @@
+.modal-body{
+    
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+iframe{
+    height: auto;
+    width:auto,
+
+    
+}
+
+@media screen and (min-width: 1080px){
+    .modal-body{
+    
+        width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    iframe{
+        height:50vh;
+        width:auto,
+    
+    }
+    .modal-content{
+        height: auto;
+        width: 150%;
+    }
+    
+    .modal-text{
+        margin-left: 1rem;
+    }
+  }
